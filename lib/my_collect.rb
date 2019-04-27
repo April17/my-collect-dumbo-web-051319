@@ -5,10 +5,10 @@ def my_collect (array)
   ary2 = []
   while i < array.length
     ary1 << yield(array[i]).upcase
-    binding.pry
     ary2 << yield(array[i]).split(" ").first
     i += 1
   end
   ary1
   ary2
+  binding.pry
 end
