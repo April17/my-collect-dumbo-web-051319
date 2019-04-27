@@ -7,6 +7,7 @@ def my_collect (array)
     ary2 << yield(array[i]).split(" ").first
     puts ary2
     ary1 << yield(array[i]).upcase
+    puts ary1
     binding.pry
     i += 1
   end
