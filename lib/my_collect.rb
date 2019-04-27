@@ -6,5 +6,6 @@ def my_collect (array)
     string = yield(array[i]).upcase
     i += 1
   end
+  binding.pry
   array
 end
