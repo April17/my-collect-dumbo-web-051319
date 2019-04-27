@@ -8,4 +8,6 @@ def my_collect (array)
     ary1 << yield(array[i]).upcase
     i += 1
   end
+  ary1
+  ary2
 end
