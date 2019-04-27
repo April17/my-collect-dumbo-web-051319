@@ -9,5 +9,5 @@ my_collect (languages) do |lang|
   return lang
 end
 my_collect(students) do |name|
-  puts name.split(" ").first
+  return name
 end
