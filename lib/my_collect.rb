@@ -4,7 +4,7 @@ languages = ['ruby', 'javascript', 'python', 'objective-c']
 def my_collect (array)
   ary = []
   ary << yield(array)
-
+  binding.pry
 end
 my_collect (languages) do |lang|
   return lang
