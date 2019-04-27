@@ -1,7 +1,9 @@
 require "pry"
 students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 languages = ['ruby', 'javascript', 'python', 'objective-c']
- my_collect (array)
+def method_name
+
+end my_collect (array)
   yield (array)
   yield (array)
 end
