@@ -10,4 +10,3 @@ my_collect (languages) do |lang|
 end
 my_collect(students) do |name|
   puts name.split(" ").first
-end
