@@ -8,4 +8,6 @@ def my_collect (array)
     ary2 = yield(array[i]).split(" ").first
     i += 1
   end
+  ary1
+  ary2
 end
