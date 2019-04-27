@@ -6,6 +6,7 @@ def my_collect (array)
   while i < array.length
     ary2 << yield(array[i]).split(" ").first
     ary1 << yield(array[i]).upcase
+    binding.pry
     i += 1
   end
   ary1
