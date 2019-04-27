@@ -10,6 +10,4 @@ def my_collect (array)
     binding.pry
     i += 1
   end
-  ary1
-  ary2
 end
