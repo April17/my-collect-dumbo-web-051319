@@ -2,8 +2,9 @@ require "pry"
 students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 languages = ['ruby', 'javascript', 'python', 'objective-c']
 def my_collect (array)
-  yield (array)
-  yield (array)
+  ary = []
+  ary << yield(array)
+
 end
 my_collect (languages) do |lang|
   return lang
