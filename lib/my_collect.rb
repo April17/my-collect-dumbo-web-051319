@@ -8,6 +8,7 @@ def my_collect (array)
 end
 my_collect (languages) do |lang|
   return lang
+  binding.pry
 end
 my_collect(students) do |name|
   return name
