@@ -8,7 +8,6 @@ def my_collect (array)
     puts ary2
     ary1 << yield(array[i]).upcase
     puts ary1
-    binding.pry
     i += 1
   end
 end
