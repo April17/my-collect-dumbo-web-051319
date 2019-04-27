@@ -7,5 +7,5 @@ def my_collect (array)
     i += 1
   end
   array
-    binding.pry
+  binding.pry
 end
